@@ -61,6 +61,7 @@ public class Test {
 
             currentSession.merge(movie);*/
 
+            //task 7
             Movie movie = currentSession.get(Movie.class, 1);
             Director director = currentSession.get(Director.class, 6);
             director.getMovieList().remove(movie);
